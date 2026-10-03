@@ -1,0 +1,106 @@
+@theme inline {
+	--font-primary: var(--font-roboto);
+	--font-secondary: var(--font-roboto-flex);
+
+	/* <-- Configuração de Font Weight de cada elemento --> */
+	/* <-- <h1> --> */
+	--font-weight-h1-light: var(--font-weight-medium);
+	--font-weight-h1-base: var(--font-weight-semibold);
+	--font-weight-h1-bold: var(--font-weight-extrabold);
+
+	/* <-- <h2> --> */
+	--font-weight-h2-light: var(--font-weight-normal);
+	--font-weight-h2-base: var(--font-weight-semibold);
+	--font-weight-h2-bold: var(--font-weight-bold);
+
+	/* <-- <h3> --> */
+	--font-weight-h3-light: var(--font-weight-normal);
+	--font-weight-h3-base: var(--font-weight-medium);
+	--font-weight-h3-bold: var(--font-weight-semibold);
+
+	/* <-- <h4> --> */
+	--font-weight-h4-light: var(--font-weight-light);
+	--font-weight-h4-base: var(--font-weight-medium);
+	--font-weight-h4-bold: var(--font-weight-bold);
+
+	/* <-- <h5> --> */
+	--font-weight-h5-light: var(--font-weight-light);
+	--font-weight-h5-base: var(--font-weight-medium);
+	--font-weight-h5-bold: var(--font-weight-semibold);
+
+	/* <-- <h6> --> */
+	--font-weight-h6-light: var(--font-weight-extralight);
+	--font-weight-h6-base: var(--font-weight-medium);
+	--font-weight-h6-bold: var(--font-weight-semibold);
+
+	/* <-- <label> --> */
+	--font-weight-label-light: var(--font-weight-normal);
+	--font-weight-label-base: var(--font-weight-medium);
+	--font-weight-label-bold: var(--font-weight-bold);
+
+	/* <-- <p> --> paragrafo */
+	--font-weight-p-light: var(--font-weight-normal);
+	--font-weight-p-base: var(--font-weight-medium);
+	--font-weight-p-bold: var(--font-weight-semibold);
+	/* <-- Configuração de Font Weight de cada elemento --> */
+
+	--font-h1: var(--font-primary);
+	--text-h1: var(--text-6xl);
+	--leading-h1: var(--leading-tight);
+	--tracking-h1: var(--tracking-normal);
+
+	--font-h2: var(--font-primary);
+	--text-h2: var(--text-5xl);
+	--leading-h2: var(--leading-tight);
+	--tracking-h2: var(--tracking-normall);
+
+	--font-h3: var(--font-secondary);
+	--text-h3: var(--text-4xl);
+	--leading-h3: var(--leading-tight);
+	--tracking-h3: var(--tracking-normal);
+
+	--font-h4: var(--font-secondary);
+	--text-h4: var(--text-2xl);
+	--leading-h4: var(--leading-tight);
+	--tracking-h4: var(--tracking-normal);
+
+	--font-h5: var(--font-secondary);
+	--text-h5: var(--text-xl);
+	--leading-h5: var(--leading-tight);
+	--tracking-h5: var(--tracking-normall);
+
+	--font-h6: var(--font-secondary);
+	--text-h6: var(--text-base);
+	--leading-h6: var(--leading-tight);
+	--tracking-h6: var(--tracking-normal);
+
+	--font-label: var(--font-secondary);
+	--text-label-small: var(--text-xs);
+	--leading-label-small: var(--leading-snug);
+	--tracking-label-small: var(--tracking-normal);
+
+	--font-label: var(--font-primary);
+	--text-label-medium: var(--text-base);
+	--leading-label-medium: var(--leading-snug);
+	--tracking-label-medium: var(--tracking-normal);
+
+	--font-label: var(--font-secondary);
+	--text-label-large: var(--text-lg);
+	--leading-label-large: var(--leading-snug);
+	--tracking-label-large: var(--tracking-normal);
+
+	--font-p: var(--font-secondary);
+	--text-p-small: var(--text-sm);
+	--leading-p-small: var(--leading-tight);
+	--tracking-p-small: var(--tracking-normal);
+
+	--font-p: var(--font-primary);
+	--text-p-medium: var(--text-base);
+	--leading-p-medium: var(--teleading-tight);
+	--tracking-p-medium: var(--tracking-normal);
+
+	--font-p: var(--font-secondary);
+	--text-p-large: var(--text-lg);
+	--leading-p-large: var(--leading-tight);
+	--tracking-p-large: var(--tracking-normal);
+}

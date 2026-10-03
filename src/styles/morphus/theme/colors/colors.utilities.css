@@ -1,0 +1,180 @@
+@utility mpx-primary {
+	@apply bg-primary text-on-primary;
+}
+
+@utility mpx-primary-inverse {
+	@apply bg-on-primary text-primary;
+}
+
+@utility mpx-primary-container {
+	@apply bg-primary-container text-on-primary-container;
+}
+
+@utility mpx-primary-container-inverse {
+	@apply bg-on-primary-container text-primary-container;
+}
+
+@utility mpx-secondary {
+	@apply bg-secondary text-on-secondary;
+}
+
+@utility mpx-secondary-inverse {
+	@apply bg-on-secondary text-secondary;
+}
+
+@utility mpx-secondary-container {
+	@apply bg-secondary-container text-on-secondary-container;
+}
+
+@utility mpx-secondary-container-inverse {
+	@apply bg-on-secondary-container text-secondary-container;
+}
+
+@utility mpx-tertiary {
+	@apply bg-tertiary text-on-tertiary;
+}
+
+@utility mpx-tertiary-inverse {
+	@apply bg-on-tertiary text-tertiary;
+}
+
+@utility mpx-tertiary-container {
+	@apply bg-tertiary-container text-on-tertiary-container;
+}
+
+@utility mpx-tertiary-container-inverse {
+	@apply bg-on-tertiary-container text-tertiary-container;
+}
+
+@utility mpx-surface {
+	@apply bg-surface text-on-surface;
+}
+
+@utility mpx-surface-inverse {
+	@apply bg-on-surface text-on-surface;
+}
+
+@utility mpx-surface-variant {
+	@apply bg-surface-variant text-on-surface-variant;
+}
+
+@utility mpx-surface-variant-inverse {
+	@apply bg-on-surface-variant text-surface-variant;
+}
+
+@utility mpx-surface-tint {
+	@apply bg-surface-tint text-on-surface-tint;
+}
+
+@utility mpx-background {
+	@apply bg-background text-on-background;
+}
+
+@utility mpx-info {
+	@apply bg-info text-on-info;
+}
+
+@utility mpx-info-inverse {
+	@apply bg-on-info text-info;
+}
+
+@utility mpx-info-container {
+	@apply bg-info-container text-on-info-container;
+}
+
+@utility mpx-info-containerinverse {
+	@apply bg-on-info-container text-info-container;
+}
+
+@utility mpx-info-variant {
+	@apply bg-info-variant text-on-info-variant;
+}
+
+@utility mpx-info-variant-inverse {
+	@apply bg-on-info-variant text-info-variant;
+}
+
+@utility mpx-warning {
+	@apply bg-warning text-on-warning;
+}
+
+@utility mpx-warning-inverse {
+	@apply bg-on-warning text-warning;
+}
+
+@utility mpx-warning-container {
+	@apply bg-warning-container text-on-warning-container;
+}
+
+@utility mpx-warning-containerinverse {
+	@apply bg-on-warning-container text-warning-container;
+}
+
+@utility mpx-warning-variant {
+	@apply bg-warning-variant text-on-warning-variant;
+}
+
+@utility mpx-warning-variant-inverse {
+	@apply bg-on-warning-variant text-warning-variant;
+}
+
+@utility mpx-success {
+	@apply bg-success text-on-success;
+}
+
+@utility mpx-success-inverse {
+	@apply bg-on-success text-success;
+}
+
+@utility mpx-success-container {
+	@apply bg-success-container text-on-success-container;
+}
+
+@utility mpx-success-containerinverse {
+	@apply bg-on-success-container text-success-container;
+}
+
+@utility mpx-success-variant {
+	@apply bg-success-variant text-on-success-variant;
+}
+
+@utility mpx-success-variant-inverse {
+	@apply bg-on-success-variant text-success-variant;
+}
+
+@utility mpx-error {
+	@apply bg-error text-on-error;
+}
+
+@utility mpx-error-inverse {
+	@apply bg-on-error text-error;
+}
+
+@utility mpx-error-container {
+	@apply bg-error-container text-on-error-container;
+}
+
+@utility mpx-error-containerinverse {
+	@apply bg-on-error-container text-error-container;
+}
+
+@utility mpx-error-variant {
+	@apply bg-error-variant text-on-error-variant;
+}
+
+@utility mpx-error-variant-inverse {
+	@apply bg-on-error-variant text-error-variant;
+}
+
+@utility info {
+	@apply bg-info-container;
+
+	@layer components {
+		.title {
+			@apply bg-on-info-container;
+		}
+		.end {
+			@apply bg-amber-300;
+		}
+	}
+}

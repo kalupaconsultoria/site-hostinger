@@ -1,0 +1,151 @@
+@utility m-bold {
+	--mpx-weight-variant: bold;
+}
+
+@utility m-light {
+	--mpx-weight-variant: light;
+}
+
+@utility mpx-h1 {
+	@apply font-h1 text-h1 font-h1-base leading-h1 tracking-h1;
+
+	&.m-bold {
+		@apply font-h1-bold;
+	}
+
+	&.m-light {
+		@apply font-h1-light;
+	}
+}
+
+@utility mpx-h2 {
+	@apply font-h2 text-h2 font-h2-base leading-h2 tracking-h2;
+
+	&.m-bold {
+		@apply font-h2-bold;
+	}
+
+	&.m-light {
+		@apply font-h2-light;
+	}
+}
+
+@utility mpx-h3 {
+	@apply font-h3 text-h3 font-h3-base leading-h3 tracking-h3;
+
+	&.m-bold {
+		@apply font-h3-bold;
+	}
+
+	&.m-light {
+		@apply font-h3-light;
+	}
+}
+
+@utility mpx-h4 {
+	@apply font-h4 text-h4 font-h4-base leading-h4 tracking-h4;
+
+	&.m-bold {
+		@apply font-h4-bold;
+	}
+
+	&.m-light {
+		@apply font-h4-light;
+	}
+}
+
+@utility mpx-h5 {
+	@apply font-h5 text-h5 font-h5-base leading-h5 tracking-h5;
+
+	&.m-bold {
+		@apply font-h5-bold;
+	}
+
+	&.m-light {
+		@apply font-h5-light;
+	}
+}
+
+@utility mpx-h6 {
+	@apply font-h6 text-h6 font-h6-base leading-h6 tracking-h6;
+
+	&.m-bold {
+		@apply font-h6-bold;
+	}
+
+	&.m-light {
+		@apply font-h6-light;
+	}
+}
+
+@utility mpx-label-small {
+	@apply font-label text-label-small font-label-base leading-label-small tracking-label-small;
+
+	&.m-bold {
+		@apply font-label-bold;
+	}
+
+	&.m-light {
+		@apply font-label-light;
+	}
+}
+
+@utility mpx-label {
+	@apply font-label text-label-medium font-label-base leading-label-medium tracking-label-medium;
+
+	&.m-bold {
+		@apply font-label-bold;
+	}
+
+	&.m-light {
+		@apply font-label-light;
+	}
+}
+
+@utility mpx-label-large {
+	@apply font-label text-label-large leading-label-small font-p-base tracking-label-large;
+
+	&.m-bold {
+		@apply font-label-bold;
+	}
+
+	&.m-light {
+		@apply font-label-light;
+	}
+}
+
+@utility mpx-p-small {
+	@apply font-label text-label-small leading-label-small font-p-base tracking-label-small;
+
+	&.m-bold {
+		@apply font-p-bold;
+	}
+
+	&.m-light {
+		@apply font-p-light;
+	}
+}
+
+@utility mpx-p {
+	@apply font-label text-label-medium leading-label-medium font-p-base tracking-label-medium;
+
+	&.m-bold {
+		@apply font-p-bold;
+	}
+
+	&.m-light {
+		@apply font-p-light;
+	}
+}
+
+@utility mpx-p-large {
+	@apply font-label text-label-large font-label-base leading-label-large tracking-label-large;
+
+	&.m-bold {
+		@apply font-p-bold;
+	}
+
+	&.m-light {
+		@apply font-p-light;
+	}
+}

@@ -1,0 +1,4 @@
+@import 'tailwindcss';
+@import 'flowbite-react/plugin/tailwindcss';
+@import './morphus/index.css';
+@source '../../.flowbite-react/class-list.json';

@@ -1,0 +1,59 @@
+@theme inline {
+	--color-outline: var(--color-slate-200);
+	--color-background: var(--color-white);
+	--color-on-background: var(--color-black);
+
+	--color-primary: var(--color-sky-800);
+	--color-on-primary: var(--color-sky-50);
+	--color-primary-container: var(--color-sky-100);
+	--color-on-primary-container: var(--color-sky-900);
+
+	--color-secondary: var(--color-sky-800);
+	--color-on-secondary: var(--color-sky-50);
+	--color-secondary-container: var(--color-sky-100);
+	--color-on-secondary-container: var(--color-sky-900);
+
+	--color-tertiary: var(--color-sky-800);
+	--color-on-tertiary: var(--color-sky-50);
+	--color-tertiary-container: var(--color-sky-100);
+	--color-on-tertiary-container: var(--color-sky-900);
+
+	--color-surface: var(--color-zinc-500);
+	--color-on-surface: var(--color-black);
+	--color-surface-tint: var(--color-zinc-100);
+	--color-on-surface-tint: var(--color-black);
+	--color-surface-variant: var(--color-zinc-200);
+	--color-on-surface-variant: var(--color-black);
+
+	--color-info: var(--color-sky-800);
+	--color-on-info: var(--color-sky-50);
+	--color-info-variant: var(--color-sky-200);
+	--color-on-info-variant: var(--color-sky-900);
+	--color-info-container: var(--color-sky-100);
+	--color-on-info-container: var(--color-sky-900);
+	--color-info-outline: var(--color-sky-800);
+
+	--color-warning: var(--color-amber-800);
+	--color-on-warning: var(--color-amber-50);
+	--color-warning-variant: var(--color-amber-200);
+	--color-on-warning-variant: var(--color-amber-900);
+	--color-warning-container: var(--color-amber-100);
+	--color-on-warning-container: var(--color-amber-900);
+	--color-warning-outline: var(--color-amber-800);
+
+	--color-success: var(--color-green-800);
+	--color-on-success: var(--color-green-50);
+	--color-success-variant: var(--color-green-200);
+	--color-on-success-variant: var(--color-green-900);
+	--color-success-container: var(--color-green-100);
+	--color-on-success-container: var(--color-green-900);
+	--color-success-outline: var(--color-green-800);
+
+	--color-error: var(--color-error-800);
+	--color-on-error: var(--color-error-50);
+	--color-error-variant: var(--color-error-200);
+	--color-on-error-variant: var(--color-error-900);
+	--color-error-container: var(--color-error-100);
+	--color-on-error-container: var(--color-error-900);
+	--color-error-outline: var(--color-error-800);
+}

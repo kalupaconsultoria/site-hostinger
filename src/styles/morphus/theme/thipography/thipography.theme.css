@@ -1,0 +1,16 @@
+@theme {
+	--font-roboto: 'Roboto';
+	--font-roboto-flex: 'Roboto Flex';
+	--font-roboto-mono: 'Roboto mono';
+	--font-geist-mono: 'Geist mono';
+	--font-geist: 'Geist';
+	--font-fira-code: 'Fira Code';
+	--font-fira-mono: 'Fira Mono';
+	--font-jet-brains-mono: 'JetBrains Mono';
+	--font-ibm-plex-mono: 'IBM Plex Mono';
+	--font-google-sans: 'Google Sans';
+	--font-noto-sans: 'Noto Sans';
+	--font-ubuntu: 'Ubuntu';
+	--font-montserrat: 'Mont Serrat';
+	--font-anybody: 'Anybody';
+}
